@@ -6,14 +6,12 @@
 
 <script>
 export default {
-  name: 'HeaderComponent',
-}
+  name: "HeaderBody",
+};
 </script>
 
 <style scoped>
-
 .nav {
   height: 56px;
 }
-
 </style>

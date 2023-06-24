@@ -1,30 +1,28 @@
 <template>
   <v-container fluid class="main-container pa-0 ma-0">
-    <HeaderComponent />
+    <HeaderBody />
     <router-view></router-view>
   </v-container>
 </template>
 
 <script>
-
-import HeaderComponent from '@/components/HeaderComponent.vue'
+import HeaderBody from "@/components/HeaderBody.vue";
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HeaderComponent
-  }
-}
+    HeaderBody,
+  },
+};
 </script>
 
 <style>
-
 * {
   box-sizing: border-box;
 }
 
-body, html {
+body,
+html {
   margin: 0;
   padding: 0;
 }
-
 </style>
