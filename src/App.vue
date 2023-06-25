@@ -1,16 +1,20 @@
 <template>
-  <v-container fluid class="main-container pa-0 ma-0">
+  <v-app>
     <HeaderBody />
     <router-view></router-view>
-  </v-container>
+    <FooterBody />
+  </v-app>
 </template>
 
 <script>
 import HeaderBody from "@/components/HeaderBody.vue";
+import FooterBody from "@/components/FooterBody.vue";
+
 export default {
   name: "App",
   components: {
     HeaderBody,
+    FooterBody,
   },
 };
 </script>
@@ -20,9 +24,9 @@ export default {
   box-sizing: border-box;
 }
 
-body,
+/* body,
 html {
   margin: 0;
   padding: 0;
-}
+} */
 </style>

@@ -13,9 +13,8 @@ export default {
 <style scoped>
 .home-main-container {
   background: greenyellow;
-  height: 100vh;
+  display: flex;
   flex-shrink: 0;
   margin: 0;
-  padding: 0;
 }
 </style>

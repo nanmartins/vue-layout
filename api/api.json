@@ -1,0 +1,24 @@
+{
+  "regiao_concurso": {
+    "name": "regiao_concurso",
+    "data": [
+      {
+        "id": "",
+        "regiao_id": "",
+        "tipo_concurso": "",
+        "tipo_apuracao": "",
+        "num_serie": "",
+        "faixa_inicial": "",
+        "faixa_final": "",
+        "vl_numero": "",
+        "dt_inicio": "",
+        "hr_inicio": "",
+        "dt_final": "",
+        "hr_final": "",
+        "inclusion_date": "",
+        "desativado": ""
+
+      }
+    ]
+  }
+}
